@@ -9,9 +9,9 @@ export default function App() {
   return (
     <main>
       <Header />
-      {/* <TabNav /> */}
+      <TabNav /> 
       <WelcomePage />
-      <Route exact path="/" component="WelcomePage"/>
+      <Route exact path="/" component="WelcomePage" />
 
     </main>
   );
